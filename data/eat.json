@@ -1,0 +1,8 @@
+[
+  {"id":"mesa","title":"Mesa & Lime","description":"Casual tacos, rice bowls, and a relaxed table for friends.","tags":["Mexican"],"cost":18,"city":"Sample City","dietary_options":["Vegetarian","Vegan"]},
+  {"id":"olive","title":"Olive House","description":"Pasta and pizza made for sharing over a long conversation.","tags":["Italian"],"cost":24,"city":"Sample City","dietary_options":["Vegetarian"]},
+  {"id":"juniper","title":"Juniper Kitchen","description":"Japanese rice bowls and sushi in a casual setting.","tags":["Japanese"],"cost":32,"city":"Sample City","dietary_options":["Vegetarian"]},
+  {"id":"saffron","title":"Saffron Table","description":"Indian curries, fresh naan, and plant-based choices.","tags":["Indian"],"cost":22,"city":"Sample City","dietary_options":["Vegetarian","Vegan"]},
+  {"id":"market","title":"Market Hall","description":"A shared dining hall with tacos, pizza, and Mediterranean bowls.","tags":["Mexican","Italian","Mediterranean"],"cost":20,"city":"Sample City","dietary_options":["Vegetarian","Vegan"]},
+  {"id":"corner","title":"Corner Diner","description":"Burgers, sandwiches, and an easygoing neighborhood atmosphere.","tags":["American"],"cost":14,"city":"Sample City","dietary_options":["Vegetarian"]}
+]

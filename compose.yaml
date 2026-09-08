@@ -1,0 +1,11 @@
+services:
+  typesense:
+    image: typesense/typesense:30.2
+    ports:
+      - "127.0.0.1:8108:8108"
+    volumes:
+      - ./.runtime/typesense-data:/data
+    environment:
+      TYPESENSE_DATA_DIR: /data
+      TYPESENSE_API_KEY: ${TYPESENSE_API_KEY:?Set TYPESENSE_API_KEY in .env}
+    restart: unless-stopped

@@ -1,0 +1,8 @@
+[
+  {"id":"rescue","title":"Island Rescue","description":"Work together to bring everyone home before the storm.","tags":["Cooperative","Strategy"],"duration":35,"players_min":2,"players_max":4},
+  {"id":"draw","title":"Draw It Back","description":"Sketch, guess, and see where the story goes.","tags":["Party","Quick","Creative"],"duration":20,"players_min":3,"players_max":8},
+  {"id":"orchard","title":"The Orchard","description":"Build a small garden one choice at a time.","tags":["Strategy"],"duration":65,"players_min":2,"players_max":4},
+  {"id":"word","title":"Word Relay","description":"A quick word association challenge for the whole group.","tags":["Party","Quick","Cooperative"],"duration":15,"players_min":2,"players_max":10},
+  {"id":"tower","title":"Paper Tower","description":"Cooperate to build the tallest tower with limited supplies.","tags":["Creative","Cooperative","Quick"],"duration":25,"players_min":2,"players_max":8},
+  {"id":"kingdom","title":"Little Kingdoms","description":"A longer strategy game of trading and building.","tags":["Strategy"],"duration":110,"players_min":3,"players_max":6}
+]

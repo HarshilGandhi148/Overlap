@@ -1,0 +1,8 @@
+[
+  {"id":"clay","title":"Clay & Conversation","description":"A relaxed beginner pottery session with friends.","tags":["Creative","Social","Relaxed"],"cost":30,"duration":90,"setting":"Indoors"},
+  {"id":"picnic","title":"Riverside Picnic","description":"Bring a blanket and spend time outside together.","tags":["Outdoors","Social","Relaxed"],"cost":0,"duration":45,"setting":"Outdoors"},
+  {"id":"trivia","title":"Neighborhood Trivia","description":"A small team, a few rounds, and friendly competition.","tags":["Social"],"cost":8,"duration":60,"setting":"Indoors"},
+  {"id":"walk","title":"Sunset Photo Walk","description":"Explore the neighborhood while taking creative photographs.","tags":["Creative","Outdoors","Active"],"cost":0,"duration":40,"setting":"Outdoors"},
+  {"id":"climb","title":"Beginner Climbing Session","description":"Try indoor climbing with a group of beginners.","tags":["Active","Social"],"cost":25,"duration":75,"setting":"Indoors"},
+  {"id":"gallery","title":"Small Gallery Afternoon","description":"Wander through a small exhibition and talk about what you see.","tags":["Creative","Relaxed"],"cost":5,"duration":35,"setting":"Indoors"}
+]
