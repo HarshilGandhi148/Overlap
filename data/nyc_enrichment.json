@@ -1,0 +1,907 @@
+{
+  "version": 1,
+  "currency": "USD",
+  "notes": "Real OSM identifiers fetched 2026-09-08. Descriptions are editorial paraphrases. Duration ranges are planning estimates; upper bounds are used for filtering. Prices are general adult admission unless labeled estimated. No live opening-hours guarantee. OSM-derived data: ODbL, https://www.openstreetmap.org/copyright",
+  "places": {
+    "way:278346578": {
+      "name": "MoMA",
+      "description": "The Museum of Modern Art displays modern and contemporary painting, sculpture, photography, design and film. Browse art galleries on a self-guided visit.",
+      "currency": "USD",
+      "cost_min": 30,
+      "cost_max": 30,
+      "duration_min": 90,
+      "duration_max": 120,
+      "cost_basis": "published adult admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://visit.moma.org/select",
+        "https://www.openstreetmap.org/way/278346578"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "relation:3698894": {
+      "name": "The Metropolitan Museum of Art",
+      "description": "The Metropolitan Museum of Art presents art across cultures and historical periods. Explore paintings, sculpture and decorative objects at your own pace.",
+      "currency": "USD",
+      "cost_min": 30,
+      "cost_max": 30,
+      "duration_min": 90,
+      "duration_max": 150,
+      "cost_basis": "published adult admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.metmuseum.org/plan-your-visit",
+        "https://www.openstreetmap.org/relation/3698894"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:288749896": {
+      "name": "Whitney Museum of American Art",
+      "description": "The Whitney presents American art, including twentieth-century and contemporary work. Explore exhibitions and discuss painting, sculpture and artistic ideas.",
+      "currency": "USD",
+      "cost_min": 30,
+      "cost_max": 30,
+      "duration_min": 60,
+      "duration_max": 120,
+      "cost_basis": "published adult admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://whitney.org/visit",
+        "https://www.openstreetmap.org/way/288749896"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:170149134": {
+      "name": "Guggenheim Museum",
+      "description": "The Guggenheim combines modern and contemporary art exhibitions with a distinctive spiral museum building. Explore art and architecture together.",
+      "currency": "USD",
+      "cost_min": 30,
+      "cost_max": 30,
+      "duration_min": 60,
+      "duration_max": 120,
+      "cost_basis": "published general admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.guggenheim.org/plan-your-visit/",
+        "https://www.openstreetmap.org/way/170149134"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "node:368061648": {
+      "name": "New York Transit Museum",
+      "description": "The New York Transit Museum explores city transportation history in a former subway station. See historic train cars and transport exhibits.",
+      "currency": "USD",
+      "cost_min": 10,
+      "cost_max": 10,
+      "duration_min": 60,
+      "duration_max": 90,
+      "cost_basis": "published adult admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nytransitmuseum.org/know-before-you-visit/",
+        "https://www.openstreetmap.org/node/368061648"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:266926168": {
+      "name": "Cooper–Hewitt, Smithsonian Design Museum",
+      "description": "Cooper Hewitt is a design museum in a historic mansion. Explore objects, patterns, materials and the ways designers solve problems.",
+      "currency": "USD",
+      "cost_min": 20,
+      "cost_max": 20,
+      "duration_min": 60,
+      "duration_max": 90,
+      "cost_basis": "published reduced adult admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.cooperhewitt.org/visit/plan-your-visit/",
+        "https://www.openstreetmap.org/way/266926168"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "node:368061644": {
+      "name": "Museum of the Moving Image",
+      "description": "Museum of the Moving Image explores cinema and television through exhibits about filmmaking, technology and screen culture.",
+      "currency": "USD",
+      "cost_min": 20,
+      "cost_max": 21.5,
+      "duration_min": 60,
+      "duration_max": 120,
+      "cost_basis": "published admission range including online transaction fee",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://movingimage.org/visit/",
+        "https://www.openstreetmap.org/node/368061644"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:383689939": {
+      "name": "The Noguchi Museum",
+      "description": "The Noguchi Museum presents sculpture by Isamu Noguchi, including work in an outdoor garden. Explore the relationship between art and space.",
+      "currency": "USD",
+      "cost_min": 16,
+      "cost_max": 16,
+      "duration_min": 60,
+      "duration_max": 90,
+      "cost_basis": "published general admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.noguchi.org/museum/visit/",
+        "https://www.openstreetmap.org/way/383689939"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:271220752": {
+      "name": "Museum of the City of New York",
+      "description": "Museum of the City of New York explores the history, people and changing culture of New York through exhibitions.",
+      "currency": "USD",
+      "cost_min": 23,
+      "cost_max": 23,
+      "duration_min": 60,
+      "duration_max": 120,
+      "cost_basis": "published adult admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.mcny.org/visit",
+        "https://www.openstreetmap.org/way/271220752"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:249664327": {
+      "name": "The Drawing Center",
+      "description": "The Drawing Center presents exhibitions of drawing and works on paper. View art and discuss creative approaches during a self-guided gallery visit.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 30,
+      "duration_max": 60,
+      "cost_basis": "published free admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://drawingcenter.org/visit",
+        "https://www.openstreetmap.org/way/249664327"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "node:368061337": {
+      "name": "National Museum of the American Indian",
+      "description": "The National Museum of the American Indian in New York presents exhibitions about Indigenous cultures, histories and art in a historic building.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 60,
+      "duration_max": 90,
+      "cost_basis": "published free admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://americanindian.si.edu/visit/ny",
+        "https://www.openstreetmap.org/node/368061337"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:271205008": {
+      "name": "Nicholas Roerich Museum",
+      "description": "The Nicholas Roerich Museum displays paintings by Nicholas Roerich. A small art museum for looking at landscapes and discussing painting.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 30,
+      "duration_max": 60,
+      "cost_basis": "published free admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.roerich.org/museum-about.php",
+        "https://www.openstreetmap.org/way/271205008"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "node:9007964737": {
+      "name": "Grolier Club",
+      "description": "The Grolier Club offers public exhibitions of books and prints. Explore book design, illustration, literature and collecting in its galleries.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 30,
+      "duration_max": 60,
+      "cost_basis": "published free exhibition admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.grolierclub.org/Default.aspx?p=DynamicModule&pageid=384826&ssid=322447&vnf=1",
+        "https://www.openstreetmap.org/node/9007964737"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "node:3224793125": {
+      "name": "American Folk Art Museum",
+      "description": "The American Folk Art Museum presents folk art and work by self-taught artists. Explore individual artistic expression through exhibitions.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 45,
+      "duration_max": 75,
+      "cost_basis": "published free admission",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://folkartmuseum.org/news/visitor-guidelines/",
+        "https://www.openstreetmap.org/node/3224793125"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "node:9136326361": {
+      "name": "Leslie-Lohman Museum of Art",
+      "description": "The Leslie-Lohman Museum of Art focuses on LGBTQIA+ art and artists. Visit gallery exhibitions about art, identity and creative expression.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 30,
+      "duration_max": 60,
+      "cost_basis": "estimated admission; confirm with venue",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.leslielohman.org/visit",
+        "https://www.openstreetmap.org/node/9136326361"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided gallery visit; no special-event tickets, optional purchases or transport. Check current opening dates and admission.",
+      "verification_note": "Official visit page consulted for admission where published. Visit length is an editorial estimate. Discounts are not assumed."
+    },
+    "way:22727025": {
+      "name": "Bryant Park",
+      "description": "A Midtown park with a lawn, gardens and movable seating. Plan a short outdoor stroll and time to sit and talk.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://bryantpark.org/",
+        "https://www.openstreetmap.org/way/22727025"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:1121582607": {
+      "name": "Herald Square",
+      "description": "Herald Square is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/herald-square/",
+        "https://www.openstreetmap.org/way/1121582607"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:266077861": {
+      "name": "McCaffrey Playground",
+      "description": "McCaffrey Playground is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/mccaffrey-playground",
+        "https://www.openstreetmap.org/way/266077861"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:264003876": {
+      "name": "Paley Park",
+      "description": "A small Midtown public space with a waterfall and seating. Plan a short pause to sit, listen to the water and talk.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 15,
+      "duration_max": 30,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.openstreetmap.org/way/264003876",
+        "https://www.openstreetmap.org/way/264003876"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:266097823": {
+      "name": "Matthews-Palmer Playground",
+      "description": "Matthews-Palmer Playground is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/matthews-palmer-playground/history",
+        "https://www.openstreetmap.org/way/266097823"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:86338375": {
+      "name": "Greenacre Park",
+      "description": "A small landscaped Midtown park with a waterfall. Plan a short outdoor visit to sit and enjoy the garden.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 15,
+      "duration_max": 30,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://greenacrepark.org",
+        "https://www.openstreetmap.org/way/86338375"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:455314804": {
+      "name": "Trygve Lie Plaza",
+      "description": "Trygve Lie Plaza is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/trygve-lie-plaza/",
+        "https://www.openstreetmap.org/way/455314804"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:385106972": {
+      "name": "Ralph Bunche Park",
+      "description": "Ralph Bunche Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/ralph-bunche-park/",
+        "https://www.openstreetmap.org/way/385106972"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "relation:14425097": {
+      "name": "Saint Vartan Park",
+      "description": "Saint Vartan Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/st-vartan-park",
+        "https://www.openstreetmap.org/relation/14425097"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:22899286": {
+      "name": "Madison Square Park",
+      "description": "A public park around Madison Square with gardens and outdoor space. Plan a walk and time to relax together.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 30,
+      "duration_max": 60,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://madisonsquarepark.org/",
+        "https://www.openstreetmap.org/way/22899286"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:257671578": {
+      "name": "Penn South Playground",
+      "description": "Penn South Playground is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/penn-south-playground/",
+        "https://www.openstreetmap.org/way/257671578"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:22900959": {
+      "name": "Chelsea Park",
+      "description": "Chelsea Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/chelsea-park/",
+        "https://www.openstreetmap.org/way/22900959"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:378359193": {
+      "name": "Vincent F. Albano Jr. Playground",
+      "description": "Vincent F. Albano Jr. Playground is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/vincent-f-albano-jr-playground",
+        "https://www.openstreetmap.org/way/378359193"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "relation:7141751": {
+      "name": "The High Line",
+      "description": "An elevated public park built on a former railway. Walk through planted areas and see city views and public art.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 45,
+      "duration_max": 90,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.thehighline.org/",
+        "https://www.openstreetmap.org/relation/7141751"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:33804388": {
+      "name": "East River Esplanade",
+      "description": "East River Esplanade is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/east-river-esplanade_36-to-38",
+        "https://www.openstreetmap.org/way/33804388"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:22941918": {
+      "name": "DeWitt Clinton Park",
+      "description": "DeWitt Clinton Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/de-witt-clinton-park",
+        "https://www.openstreetmap.org/way/22941918"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:287462475": {
+      "name": "Bellevue South Park",
+      "description": "Bellevue South Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/bellevue-south-park",
+        "https://www.openstreetmap.org/way/287462475"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:343765233": {
+      "name": "Peter Detmold Park",
+      "description": "Peter Detmold Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/peter-detmold-park",
+        "https://www.openstreetmap.org/way/343765233"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:351201923": {
+      "name": "Tramway Plaza",
+      "description": "Tramway Plaza is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/tramway-plaza",
+        "https://www.openstreetmap.org/way/351201923"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:371120098": {
+      "name": "Chelsea Green",
+      "description": "Chelsea Green is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/chelsea-green-park",
+        "https://www.openstreetmap.org/way/371120098"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:1023817153": {
+      "name": "Pier 76",
+      "description": "A public waterfront pier in Hudson River Park. Walk in the open space and look across the Hudson River.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://hudsonriverpark.org/pier-76/",
+        "https://www.openstreetmap.org/way/1023817153"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "relation:11225305": {
+      "name": "Honey Locust Park",
+      "description": "Honey Locust Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/honey-locust-park",
+        "https://www.openstreetmap.org/relation/11225305"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:154416663": {
+      "name": "Dante Park",
+      "description": "Dante Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/dante-park",
+        "https://www.openstreetmap.org/way/154416663"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:22961904": {
+      "name": "Clement Clarke Moore Park",
+      "description": "Clement Clarke Moore Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/clement-clarke-moore-park/",
+        "https://www.openstreetmap.org/way/22961904"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "relation:16000824": {
+      "name": "Sutton Parks",
+      "description": "Sutton Parks is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/sutton-parks",
+        "https://www.openstreetmap.org/relation/16000824"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "relation:20812866": {
+      "name": "Hudson River Park",
+      "description": "A waterfront park along the Hudson River. Plan a short walk along a section of the river with time for photographs.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 45,
+      "duration_max": 90,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://hudsonriverpark.org/",
+        "https://www.openstreetmap.org/relation/20812866"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:154416666": {
+      "name": "Richard Tucker Square",
+      "description": "Richard Tucker Square is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/richard-tucker-square",
+        "https://www.openstreetmap.org/way/154416666"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:378364365": {
+      "name": "Peter's Field",
+      "description": "Peter's Field is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/peters-field/",
+        "https://www.openstreetmap.org/way/378364365"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:117994215": {
+      "name": "Samuel N. Bennerson 2nd Playground",
+      "description": "Samuel N. Bennerson 2nd Playground is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/samuel-n-bennerson-2nd-playground",
+        "https://www.openstreetmap.org/way/117994215"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:483702983": {
+      "name": "Augustus Saint-Gaudens Playground",
+      "description": "Augustus Saint-Gaudens Playground is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/augustus-st-gaudens-playground/",
+        "https://www.openstreetmap.org/way/483702983"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:837696042": {
+      "name": "Pier 97",
+      "description": "A public pier in Hudson River Park with outdoor landscaped space. Take a waterfront walk and enjoy river views.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 30,
+      "duration_max": 60,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://hudsonriverpark.org/the-park/whats-happening/design-process-pier-97/",
+        "https://www.openstreetmap.org/way/837696042"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "relation:7095444": {
+      "name": "Union Square Park",
+      "description": "Union Square Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/union-square-park",
+        "https://www.openstreetmap.org/relation/7095444"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "relation:7095669": {
+      "name": "Stuyvesant Square",
+      "description": "Stuyvesant Square is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/stuyvesant-square",
+        "https://www.openstreetmap.org/relation/7095669"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:25428484": {
+      "name": "Gantry Plaza State Park",
+      "description": "A waterfront park in Long Island City with views toward Manhattan. Walk along the river and photograph the skyline.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 30,
+      "duration_max": 60,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://parks.ny.gov/parks/gantryplaza",
+        "https://www.openstreetmap.org/way/25428484"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    },
+    "way:295969929": {
+      "name": "St. Catherine's Park",
+      "description": "St. Catherine's Park is a mapped New York public park or plaza. Plan an outdoor stroll and a short pause together in its public areas.",
+      "currency": "USD",
+      "cost_min": 0,
+      "cost_max": 0,
+      "duration_min": 20,
+      "duration_max": 45,
+      "cost_basis": "estimated public-space visit; paid amenities excluded",
+      "duration_basis": "estimated self-guided visit; not a venue guarantee",
+      "metadata_sources": [
+        "https://www.nycgovparks.org/parks/st-catherines-park",
+        "https://www.openstreetmap.org/way/295969929"
+      ],
+      "verified_at": "2026-09-08",
+      "activity_scope": "Self-guided public-space visit only; paid amenities, food and transport excluded. Check access rules, especially in playgrounds.",
+      "verification_note": "OSM place identity checked. Zero spending is a planning estimate for public-space use, not a published admission quote."
+    }
+  }
+}

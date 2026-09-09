@@ -1,8 +1,111 @@
 [
-  {"id":"detour","title":"The Great Detour","description":"Three friends take the scenic route home in a lighthearted road adventure.","tags":["Comedy","Adventure"],"duration":105},
-  {"id":"platform","title":"Platform Nine","description":"An unexpected message changes a quiet train ride.","tags":["Mystery","Drama"],"duration":118},
-  {"id":"summer","title":"One Long Summer","description":"A small-town adventure with an unlikely team.","tags":["Adventure","Drama"],"duration":132},
-  {"id":"cloud","title":"Cloud Delivery","description":"An animated courier loses a package somewhere above the city.","tags":["Animation","Comedy","Adventure"],"duration":88},
-  {"id":"signal","title":"The Last Signal","description":"Two researchers discover an unusual message from deep space.","tags":["Sci-fi","Mystery"],"duration":125},
-  {"id":"house","title":"House at the End","description":"A suspenseful night in a house with a strange history.","tags":["Horror","Mystery"],"duration":97}
+  {
+    "id": "detour",
+    "title": "The Great Detour",
+    "description": "Three friends take the scenic route home in a lighthearted road adventure.",
+    "tags": [
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 105,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "curated": {
+      "source": "Fictional demo mood tags",
+      "tags": [
+        "Lighthearted"
+      ]
+    }
+  },
+  {
+    "id": "platform",
+    "title": "Platform Nine",
+    "description": "An unexpected message changes a quiet train ride.",
+    "tags": [
+      "Mystery",
+      "Drama"
+    ],
+    "duration": 118,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "curated": {
+      "source": "Fictional demo mood tags",
+      "tags": [
+        "Thoughtful"
+      ]
+    }
+  },
+  {
+    "id": "summer",
+    "title": "One Long Summer",
+    "description": "A small-town adventure with an unlikely team.",
+    "tags": [
+      "Adventure",
+      "Drama"
+    ],
+    "duration": 132,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "curated": {
+      "source": "Fictional demo mood tags",
+      "tags": [
+        "Thoughtful"
+      ]
+    }
+  },
+  {
+    "id": "cloud",
+    "title": "Cloud Delivery",
+    "description": "An animated courier loses a package somewhere above the city.",
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "duration": 88,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "curated": {
+      "source": "Fictional demo mood tags",
+      "tags": [
+        "Lighthearted"
+      ]
+    }
+  },
+  {
+    "id": "signal",
+    "title": "The Last Signal",
+    "description": "Two researchers discover an unusual message from deep space.",
+    "tags": [
+      "Sci-fi",
+      "Mystery"
+    ],
+    "duration": 125,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "curated": {
+      "source": "Fictional demo mood tags",
+      "tags": [
+        "Thoughtful"
+      ]
+    }
+  },
+  {
+    "id": "house",
+    "title": "House at the End",
+    "description": "A suspenseful night in a house with a strange history.",
+    "tags": [
+      "Horror",
+      "Mystery"
+    ],
+    "duration": 97,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "curated": {
+      "source": "Fictional demo mood tags",
+      "tags": [
+        "Tense"
+      ]
+    }
+  }
 ]

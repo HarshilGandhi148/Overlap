@@ -39,6 +39,8 @@ class Person:
     name: str
     likes: tuple[str, ...] = ()
     avoids: tuple[str, ...] = ()
+    requirements: dict[str, Any] = field(default_factory=dict)
+    access: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -49,6 +51,7 @@ class SearchRequest:
     filters: dict[str, Any] = field(default_factory=dict)
     limit: int = 30
     custom_options: tuple[str, ...] = ()
+    suggestions: tuple[dict[str, Any], ...] = ()
 
 
 @dataclass(frozen=True)
@@ -63,6 +66,8 @@ class Candidate:
     reasons: tuple[str, ...] = ()
     source_url: str | None = None
     image_url: str | None = None
+    unknowns: tuple[str, ...] = ()
+    eligibility: str = "verified"
 
 
 @dataclass(frozen=True)
@@ -72,6 +77,8 @@ class SearchResponse:
     warnings: tuple[str, ...] = ()
     engine: str = "Typesense"
     search_time_ms: int | None = None
+    unresolved: tuple[Candidate, ...] = ()
+    conflicts: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -87,12 +94,14 @@ def validate_response(response: SearchResponse, request: SearchRequest) -> None:
         raise CategorySearchError("Category must return a SearchResponse. Check TEAM_HANDOFF.md.")
     ids: set[str] = set()
     people = {p.id: p for p in request.people}
-    for candidate in response.candidates:
+    for candidate in (*response.candidates, *response.unresolved):
         if not isinstance(candidate, Candidate) or candidate.category_id != request.category_id:
             raise CategorySearchError("Category returned an invalid result type or category ID.")
         if not candidate.id or not candidate.title or candidate.id in ids:
             raise CategorySearchError("Every result needs a unique stable ID and a title.")
         ids.add(candidate.id)
+        if candidate in response.candidates and candidate.eligibility != "verified":
+            raise CategorySearchError("An unresolved option cannot be returned as a verified match.")
         for person_id, matches in candidate.matched_likes.items():
             if person_id not in people or not set(matches) <= set(people[person_id].likes):
                 raise CategorySearchError("A result claims a preference that was not selected.")

@@ -1,0 +1,12 @@
+.env
+.venv/
+.runtime/
+.tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.streamlit/secrets.toml
+
+# Local provider-enriched restaurant catalog (rebuild with importer)
+data/eat_real.json

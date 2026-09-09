@@ -16,7 +16,7 @@ def render_card(candidate, state, people, index):
         if candidate.facts:
             st.write(" · ".join(candidate.facts.values()))
         with st.expander("Why this fits"):
-            for person in people:
+            for person in (() if candidate.category_id == 'do' else people):
                 matches = candidate.matched_likes.get(person.id, ())
                 if not person.likes:
                     st.write(f"{person.name}: no preference")
@@ -29,7 +29,7 @@ def render_card(candidate, state, people, index):
         if safe_url(candidate.source_url):
             st.link_button("View original listing", candidate.source_url)
         selected = any(c.id == candidate.id for c in state.shortlist)
-        if st.button("✓ Shortlisted — remove" if selected else "Add to shortlist",
+        if st.button("✓ Added to vote · Remove" if selected else "Add to vote",
                      key=f"shortlist:{candidate.category_id}:{candidate.id}", width="stretch",
                      disabled=not selected and len(state.shortlist) >= 3):
             state.toggle_shortlist(candidate)
@@ -38,20 +38,32 @@ def render_card(candidate, state, people, index):
 
 def render_results(spec, state, group):
     if not state.searched:
-        st.info("Add preferences for your group, then find your overlap." if not spec.custom else
-                "Add your choices above to get started.")
         return
+    if state.response:
+        for warning in state.response.warnings:
+            st.caption(warning)
+        if state.response.unresolved:
+            with st.expander(f'Needs confirmation · {len(state.response.unresolved)} options'):
+                st.caption('These options cannot enter the vote until the required information is confirmed.')
+                for candidate in state.response.unresolved[:20]:
+                    st.markdown(f'**{candidate.title}**')
+                    st.write(' · '.join(candidate.unknowns))
+                if len(state.response.unresolved) > 20:
+                    st.caption('Showing the first 20 options needing confirmation.')
+        if state.response.conflicts:
+            with st.expander('Why some options were excluded'):
+                for conflict in state.response.conflicts:
+                    st.caption(conflict)
     if not state.results:
         st.warning("No options fit this search. Adjust the query or explicitly change a group constraint.")
         return
     st.markdown(f"#### {len(state.results)} options for your group")
+    st.caption(f"Pick up to 3 to vote on together. {len(state.shortlist)} of 3 selected.")
     if state.response:
         if state.response.search_time_ms is not None:
             st.caption(f"{state.response.engine} · server search: {state.response.search_time_ms} ms · choose up to 3")
         else:
             st.caption(f"{state.response.engine} · choose up to 3")
-        for warning in state.response.warnings:
-            st.caption(warning)
     people = group.people(state)
     columns = st.columns(2)
     for index, candidate in enumerate(state.results):
@@ -69,7 +81,7 @@ def render_shortlist(spec, state, group, person_id):
             st.success(f"Your group picked {chosen.title}.", icon="🎉")
     person = next(m for m in group.members if m["id"] == person_id)
     st.markdown(f"#### Voting as {person['name'].replace('*', '')}")
-    st.caption("Everyone takes a turn. Love = 2, Okay = 1, Pass = 0. A Pass blocks agreement for that option.")
+    st.caption("Choose Love, Okay, or Pass for every option, then save. Switch the name above for the next person.")
     with st.form(f"ballot:{spec.id}:{person_id}"):
         pending = {}
         for candidate in state.shortlist:
@@ -89,7 +101,8 @@ def render_shortlist(spec, state, group, person_id):
             state.chosen_id = None
             st.rerun()
     st.divider()
-    st.markdown("#### Group agreement")
+    st.markdown("#### The group’s verdict")
+    st.caption("Love = 2 points · Okay = 1 · Pass = 0. Highest scores appear first. Everyone must vote before you confirm.")
     ids = [m["id"] for m in group.members]
     statuses = {c.id: vote_status(state.votes.get(c.id, {}), ids) for c in state.shortlist}
     all_complete = all(s[0] for s in statuses.values())
@@ -106,8 +119,9 @@ def render_shortlist(spec, state, group, person_id):
             else:
                 st.caption(f"{points} points · everyone is okay with this")
             if st.button("Confirm this pick", key=f"confirm:{spec.id}:{candidate.id}",
-                         disabled=not (consensus and all_complete), width="stretch"):
+                         disabled=not all_complete, width="stretch"):
                 state.chosen_id = candidate.id
+                st.session_state["celebrate_pick"] = True
                 st.rerun()
-    if all_complete and not any(s[1] for s in statuses.values()):
-        st.warning("Every option has a Pass. Return to preferences and try another shortlist.")
+    if all_complete and all(s[2] == 0 for s in statuses.values()):
+        st.info("Every option scored 0. You can still choose one, or go back to find more options.")

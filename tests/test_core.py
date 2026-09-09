@@ -101,7 +101,12 @@ class ProviderTests(unittest.TestCase):
         ready, unavailable=load_categories()
         self.assertFalse(unavailable)
         for key,(spec,module) in ready.items():
-            req=SearchRequest(key,(Person('p','P'),),filters={f.key:f.default for f in spec.filter_fields},custom_options=('Choice',))
+            req=SearchRequest(key,(Person('p','P'),),filters={f.key:f.default for f in spec.filter_fields},custom_options=('Choice',) if spec.custom else ())
+            if key == 'do':
+                # Semantic search deliberately cannot masquerade as an offline preview.
+                with self.assertRaises(CategorySearchError):
+                    module.search(req,self.services)
+                continue
             result=module.search(req,self.services)
             validate_response(result,req)
             self.assertTrue(result.candidates)

@@ -32,11 +32,21 @@ def render_search_form(spec, state):
                                   placeholder="Search a name, interest, cuisine, or mood…",
                                   key=f"widget:{spec.id}:query", max_chars=300)
             filters = {}
-            columns = st.columns(min(len(spec.filter_fields), 3)) if spec.filter_fields else []
-            for index, field in enumerate(spec.filter_fields):
+            basic = [f for f in spec.filter_fields if spec.id != 'play' or f.key in ('players', 'play_mode', 'platform')]
+            advanced = [f for f in spec.filter_fields if f not in basic]
+            columns = st.columns(min(len(basic), 3)) if basic else []
+            for index, field in enumerate(basic):
                 with columns[index % len(columns)]:
                     filters[field.key] = render_field(field, state.filters.get(field.key, field.default),
                                                      f"widget:{spec.id}:filter:{field.key}")
+            if advanced:
+                active = sum(state.filters.get(f.key, f.default) != f.default for f in advanced)
+                label = 'More filters · optional' + (f' · {active} active' if active else '')
+                with st.expander(label, expanded=bool(active)):
+                    st.caption('Leave these off for the widest choice of games. Time limits require known play, setup and teaching times.')
+                    for field in advanced:
+                        filters[field.key] = render_field(field, state.filters.get(field.key, field.default),
+                                                         f"widget:{spec.id}:filter:{field.key}")
             custom_text = ""
         if st.form_submit_button("Show our options" if spec.custom else "Find our overlap",
                                  type="primary", width="stretch"):
@@ -52,11 +62,15 @@ def render_preferences(spec, state, group, person_id):
         return
     person = next(m for m in group.members if m["id"] == person_id)
     current = state.preferences.get(person_id, {"likes": (), "avoids": ()})
-    with st.container(border=True):
+    with st.container():
         name = person['name'].replace('*', '')
         st.markdown("#### Your preferences" if name == "You" else f"#### {name}’s preferences")
-        st.caption("Likes influence ranking. Exclusions apply to every result. Leave likes empty for no preference.")
+        st.caption("Pick a few favorites and any hard no’s. No preference? Leave these blank.")
         with st.form(f"preferences:{spec.id}:{person_id}"):
+            requirements, access, anything = None, None, False
+            if spec.id in ('watch', 'play'):
+                from ui.media import member_requirements
+                requirements, access, anything = member_requirements(spec, current, person_id)
             left, right = st.columns(2)
             with left:
                 likes = st.multiselect("Would like", spec.like_options, default=list(current['likes']),
@@ -65,11 +79,12 @@ def render_preferences(spec, state, group, person_id):
                 avoids = st.multiselect("Exclude", spec.avoid_options, default=list(current['avoids']),
                                         key=f"widget:{spec.id}:{person_id}:avoids")
             if st.form_submit_button("Save preferences"):
-                overlap = set(likes) & set(avoids)
+                overlap = (set(likes) if not anything else set()) & set(avoids)
                 if overlap:
                     st.warning("Choose either like or exclude for: " + ", ".join(sorted(overlap)))
                 else:
-                    state.set_preferences(person_id, likes, avoids)
+                    state.set_preferences(person_id, [] if anything else likes, avoids, requirements, access)
+                    state.needs_search = spec.id in ('watch', 'play')
                     st.rerun()
         saved = sum(m["id"] in state.preferences for m in group.members)
-        st.caption(f"{saved} / {len(group.members)} people have saved preferences. Others are treated as neutral.")
+        st.caption(f"{saved} of {len(group.members)} saved. Switch the name above to take the next person’s turn.")

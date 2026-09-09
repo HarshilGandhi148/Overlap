@@ -1,0 +1,1264 @@
+{
+  "source": "https://overpass-api.de/api/interpreter",
+  "retrieved_at": "2026-09-08",
+  "license": "ODbL; © OpenStreetMap contributors; https://www.openstreetmap.org/copyright",
+  "elements": [
+    {
+      "type": "node",
+      "id": 368061337,
+      "lat": 40.704027,
+      "lon": -74.013747,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "1",
+        "addr:postcode": "10004",
+        "addr:state": "NY",
+        "addr:street": "Bowling Green",
+        "contact:website": "https://americanindian.si.edu/",
+        "ele": "3",
+        "fee": "no",
+        "gnis:feature_id": "2057415",
+        "name": "National Museum of the American Indian",
+        "name:es": "Museo Nacional de Indigena",
+        "opening_hours": "Mo-Su 10:00-17:00; Dec 25 off",
+        "phone": "+1 212-514-3700",
+        "tourism": "museum",
+        "website": "https://americanindian.si.edu/",
+        "wheelchair": "yes",
+        "wikidata": "Q5539979"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368061644,
+      "lat": 40.7561949,
+      "lon": -73.9240069,
+      "tags": {
+        "addr:city": "Astoria",
+        "addr:postcode": "11106",
+        "addr:state": "NY",
+        "addr:street": "35th Avenue",
+        "ele": "11",
+        "gnis:feature_id": "2079317",
+        "name": "Museum of the Moving Image",
+        "name:fr": "Musée de l'image animée",
+        "phone": "+1 718 777 6800",
+        "source": "USGS Geonames",
+        "toilets:wheelchair": "yes",
+        "tourism": "museum",
+        "website": "https://movingimage.us/",
+        "wheelchair": "yes",
+        "wikidata": "Q465765",
+        "wikipedia": "en:Museum of the Moving Image"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368061648,
+      "lat": 40.6905176,
+      "lon": -73.9899802,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "99",
+        "addr:postcode": "11201",
+        "addr:state": "NY",
+        "addr:street": "Schermerhorn Street",
+        "description": "Undeground museum in disused subway tunnel. Main entrance on Schermerhorn Street at Boerum Place, wheelchair-accessible entrance on Schermerhorn Street at Court Street",
+        "fee": "yes",
+        "gnis:feature_id": "2081296",
+        "museum": "transport",
+        "name": "New York Transit Museum",
+        "opening_hours": "Th-Su 10:00-16:00",
+        "operator": "MTA",
+        "tourism": "museum",
+        "website": "https://www.nytransitmuseum.org",
+        "wheelchair": "limited",
+        "wikidata": "Q1503777"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3224793125,
+      "lat": 40.7732296,
+      "lon": -73.9815958,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "2",
+        "addr:state": "NY",
+        "addr:street": "Lincoln Square",
+        "check_date:opening_hours": "2024-09-06",
+        "fee": "no",
+        "gnis:feature_id": "2083275",
+        "height": "102.1",
+        "museum": "art",
+        "name": "American Folk Art Museum",
+        "nycdoitt:bin": "1028159",
+        "opening_hours": "We-Su 11:30-18:00",
+        "tourism": "museum",
+        "website": "http://www.folkartmuseum.org",
+        "wheelchair": "yes",
+        "wikidata": "Q464354",
+        "wikipedia": "en:American Folk Art Museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9007964737,
+      "lat": 40.7640002,
+      "lon": -73.9698587,
+      "tags": {
+        "addr:housenumber": "47",
+        "addr:street": "East 60th Street",
+        "name": "Grolier Club",
+        "tourism": "museum",
+        "website": "https://www.grolierclub.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9136326361,
+      "lat": 40.7217683,
+      "lon": -74.0030317,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "26",
+        "addr:postcode": "10013",
+        "addr:state": "NY",
+        "addr:street": "Wooster Street",
+        "check_date:opening_hours": "2024-09-08",
+        "fee": "donation",
+        "lgbtq": "primary",
+        "museum": "art",
+        "name": "Leslie-Lohman Museum of Art",
+        "opening_hours": "We 12:00-17:00; Th-Su 12:00-18:00; Jan 01 off; Jun 19 off; Jun Su[-1] off; Jul 04 off; Nov 11 off; Nov Th[4] off; Dec 24-25 off; Dec 31 off",
+        "phone": "+1 212 431 2609",
+        "tourism": "museum",
+        "website": "https://www.leslielohman.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q6530976",
+        "wikipedia": "en:Leslie-Lohman Museum of Art"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22727025,
+      "center": {
+        "lat": 40.7537508,
+        "lon": -73.9835384
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:full": "Between 40th and 42nd Streets at 6th Avenue",
+        "addr:postcode": "10018",
+        "addr:state": "NY",
+        "check_date:opening_hours": "2021-11-16",
+        "ele": "20",
+        "gnis:feature_id": "2083160",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Bryant Park Public WiFi",
+        "leisure": "park",
+        "lpc:inscription_date": "1974-11-12",
+        "name": "Bryant Park",
+        "name:etymology:wikidata": "Q454840",
+        "name:ja": "ブライアントパーク",
+        "name:ko": "브라이언트 공원",
+        "name:ru": "Брайант-парк",
+        "name:tr": "Bryant Park",
+        "nrhp:inscription_date": "1966-10-15",
+        "old_name": "Reservoir Square",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "operator": "Bryant Park Corporation",
+        "ref:lpc": "0879",
+        "ref:nrhp": "66000547",
+        "tourism": "attraction",
+        "website": "https://bryantpark.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q995174",
+        "wikipedia": "en:Bryant Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22899286,
+      "center": {
+        "lat": 40.7421868,
+        "lon": -73.987872
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "11",
+        "addr:postcode": "10010",
+        "addr:state": "NY",
+        "addr:street": "Madison Avenue",
+        "leisure": "park",
+        "name": "Madison Square Park",
+        "name:en": "Madison Square Park",
+        "name:etymology:wikidata": "Q11813",
+        "name:ru": "Мэдисон-сквер",
+        "name:zh": "麦迪逊广场公园",
+        "opening_hours": "06:00-23:00",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "phone": "+1-212-520-7600",
+        "website": "https://madisonsquarepark.org/",
+        "wikidata": "Q110000",
+        "wikimedia_commons": "Category:Madison Square and Madison Square Park",
+        "wikipedia": "en:Madison Square and Madison Square Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22900959,
+      "center": {
+        "lat": 40.7499194,
+        "lon": -74.0006702
+      },
+      "tags": {
+        "WLAN": "free",
+        "ele": "5",
+        "gnis:feature_id": "946476",
+        "internet_access": "wlan",
+        "leisure": "park",
+        "name": "Chelsea Park",
+        "name:fa": "پارک چلسی",
+        "website": "https://www.nycgovparks.org/parks/chelsea-park/",
+        "wikidata": "Q42426380",
+        "wikipedia": "en:Chelsea Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22941918,
+      "center": {
+        "lat": 40.7682011,
+        "lon": -73.9942676
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:state": "NY",
+        "ele": "7",
+        "gnis:feature_id": "973532",
+        "leisure": "park",
+        "name": "DeWitt Clinton Park",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "start_date": "1906",
+        "website": "https://www.nycgovparks.org/parks/de-witt-clinton-park",
+        "wikidata": "Q5244179",
+        "wikipedia": "en:DeWitt Clinton Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 22961904,
+      "center": {
+        "lat": 40.746629,
+        "lon": -74.0043038
+      },
+      "tags": {
+        "ele": "3",
+        "gnis:feature_id": "2083023",
+        "leisure": "park",
+        "name": "Clement Clarke Moore Park",
+        "pets": "no",
+        "playground": "yes",
+        "start_date": "1968",
+        "website": "https://www.nycgovparks.org/parks/clement-clarke-moore-park/",
+        "wikidata": "Q34818415"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25428484,
+      "center": {
+        "lat": 40.7463662,
+        "lon": -73.957748
+      },
+      "tags": {
+        "addr:city": "Long Island City",
+        "addr:housenumber": "4-09",
+        "addr:postcode": "11101",
+        "addr:state": "NY",
+        "addr:street": "47th Road",
+        "ele": "0",
+        "gnis:feature_id": "2080356",
+        "leisure": "park",
+        "name": "Gantry Plaza State Park",
+        "opening_hours": "sunrise-sunset",
+        "operator": "New York State Office of Parks, Recreation and Historic Preservation",
+        "operator:short": "NYS OPRHP",
+        "operator:type": "government",
+        "operator:wikidata": "Q1706660",
+        "operator:wikipedia": "en:New York State Office of Parks, Recreation and Historic Preservation",
+        "phone": "+1 718-786-6385",
+        "ref": "149",
+        "website": "https://parks.ny.gov/parks/gantryplaza",
+        "wheelchair": "yes",
+        "wikidata": "Q1262366",
+        "wikipedia": "en:Gantry Plaza State Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 33804388,
+      "center": {
+        "lat": 40.7449845,
+        "lon": -73.9704672
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:state": "NY",
+        "leisure": "park",
+        "name": "East River Esplanade",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/east-river-esplanade_36-to-38"
+      }
+    },
+    {
+      "type": "way",
+      "id": 86338375,
+      "center": {
+        "lat": 40.7562735,
+        "lon": -73.9692846
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "217",
+        "addr:postcode": "10022",
+        "addr:state": "NY",
+        "addr:street": "East 51st Street",
+        "ele": "11",
+        "gnis:feature_id": "2083321",
+        "leisure": "park",
+        "name": "Greenacre Park",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "website": "https://greenacrepark.org",
+        "wikidata": "Q47321179",
+        "wikipedia": "en:Greenacre Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 117994215,
+      "center": {
+        "lat": 40.7738043,
+        "lon": -73.9869758
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:postcode": "10023",
+        "addr:state": "NY",
+        "addr:street": "West 64th Street",
+        "dog": "no",
+        "ele": "16",
+        "gnis:feature_id": "2500942",
+        "leisure": "park",
+        "name": "Samuel N. Bennerson 2nd Playground",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "smoking": "no",
+        "source": "Bing",
+        "website": "https://www.nycgovparks.org/parks/samuel-n-bennerson-2nd-playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154416663,
+      "center": {
+        "lat": 40.7719193,
+        "lon": -73.9825712
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Dante Park",
+        "name:etymology:wikidata": "Q1067",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/dante-park",
+        "wheelchair": "yes",
+        "wikidata": "Q5221180",
+        "wikipedia": "en:Dante Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 154416666,
+      "center": {
+        "lat": 40.7734422,
+        "lon": -73.9818886
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:state": "NY",
+        "leisure": "park",
+        "name": "Richard Tucker Square",
+        "name:etymology:wikidata": "Q943463",
+        "smoking": "no",
+        "website": "https://www.nycgovparks.org/parks/richard-tucker-square",
+        "wikidata": "Q115683375"
+      }
+    },
+    {
+      "type": "way",
+      "id": 170149134,
+      "center": {
+        "lat": 40.7829919,
+        "lon": -73.9588842
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "1071",
+        "addr:postcode": "10128",
+        "addr:state": "NY",
+        "addr:street": "5th Avenue",
+        "building": "museum",
+        "building:levels": "6",
+        "check_date": "2026-07-18",
+        "check_date:opening_hours": "2024-09-05",
+        "contact:phone": "+1 212-423-3500",
+        "description": "Hint: Saturdays 18:00-20:00 Pay-What-You-Wish Admission",
+        "ele": "33",
+        "fee": "yes",
+        "fee:conditional": "no @ age < 12",
+        "heritage": "1",
+        "museum": "art",
+        "name": "Guggenheim Museum",
+        "name:da": "Guggenheim Museum",
+        "name:es": "Museo Guggenheim",
+        "name:he": "מוזיאון סולומון ר. גוגנהיים",
+        "name:ko": "구겐하임 미술관",
+        "name:lt": "Gugenheimo muziejus",
+        "name:pl": "Muzeum Guggenheima w Nowym Jorku",
+        "name:ru": "Музей Соломона Гуггенхайма",
+        "name:uk": "Музей Соломона Гуггенгайма",
+        "name:zh": "古根漢博物館",
+        "official_name": "Solomon R. Guggenheim Museum",
+        "opening_hours": "Mo-Su 10:30-17:30; Nov Th[4] off; Dec 24 10:30-16:00; Dec 25 off",
+        "ref:nrhp": "05000443",
+        "ref:whc": "1496rev",
+        "tourism": "museum",
+        "website": "https://www.guggenheim.org/new-york",
+        "wheelchair": "yes",
+        "wikidata": "Q201469",
+        "wikipedia": "en:Solomon R. Guggenheim Museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 249664327,
+      "center": {
+        "lat": 40.7224437,
+        "lon": -74.0028908
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "35",
+        "addr:postcode": "10013",
+        "addr:street": "Wooster Street",
+        "building": "yes",
+        "check_date": "2025-02-05",
+        "fee": "no",
+        "height": "23.3",
+        "name": "The Drawing Center",
+        "nycdoitt:bin": "1007088",
+        "opening_hours": "We-Su 12:00-18:00",
+        "phone": "+1-212-219-2166",
+        "tourism": "museum",
+        "website": "https://drawingcenter.org",
+        "wheelchair": "no",
+        "wikidata": "Q3039170"
+      }
+    },
+    {
+      "type": "way",
+      "id": 257671578,
+      "center": {
+        "lat": 40.7475,
+        "lon": -73.9987079
+      },
+      "tags": {
+        "ele": "7",
+        "leisure": "park",
+        "name": "Penn South Playground",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/penn-south-playground/",
+        "wikidata": "Q34855143"
+      }
+    },
+    {
+      "type": "way",
+      "id": 264003876,
+      "center": {
+        "lat": 40.7603437,
+        "lon": -73.9750748
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:country": "US",
+        "addr:housenumber": "3",
+        "addr:postcode": "10022",
+        "addr:state": "NY",
+        "addr:street": "East 53rd Street",
+        "ele": "20",
+        "gnis:feature_id": "2083278",
+        "leisure": "park",
+        "name": "Paley Park",
+        "name:es": "Parque Paley",
+        "name:ja": "ペイリーパーク",
+        "start_date": "1967",
+        "wikidata": "Q5951152",
+        "wikipedia": "en:Paley Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 266077861,
+      "center": {
+        "lat": 40.7589801,
+        "lon": -73.9912816
+      },
+      "tags": {
+        "ele": "11",
+        "gnis:feature_id": "2500951",
+        "leisure": "park",
+        "name": "McCaffrey Playground",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/mccaffrey-playground",
+        "wikidata": "Q49523205"
+      }
+    },
+    {
+      "type": "way",
+      "id": 266097823,
+      "center": {
+        "lat": 40.7613978,
+        "lon": -73.9927341
+      },
+      "tags": {
+        "ele": "10",
+        "gnis:feature_id": "2500949",
+        "image": "https://commons.wikimedia.org/wiki/File:May_Mathews_Playground.jpg",
+        "leisure": "park",
+        "name": "Matthews-Palmer Playground",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/matthews-palmer-playground/history",
+        "wikidata": "Q34847743"
+      }
+    },
+    {
+      "type": "way",
+      "id": 266926168,
+      "center": {
+        "lat": 40.7842886,
+        "lon": -73.9577609
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "2",
+        "addr:state": "NY",
+        "addr:street": "East 91st Street",
+        "alt_name": "Cooper–Hewitt, National Design Museum",
+        "building": "yes",
+        "check_date": "2026-07-18",
+        "check_date:opening_hours": "2024-09-05",
+        "ele": "34",
+        "fee": "yes",
+        "fee:conditional": "no @ (age < 19)",
+        "gnis:feature_id": "2083553",
+        "height": "23.0",
+        "historic": "building",
+        "image": "http://en.wikipedia.org/wiki/File:Cooper-hewitt_90_jeh.JPG",
+        "name": "Cooper–Hewitt, Smithsonian Design Museum",
+        "name:en": "Cooper–Hewitt, Smithsonian Design Museum",
+        "name:ru": "Смитсоновский музей дизайна Купер Хьюитт",
+        "name:uk": "Національний музей дизайну Купер—Г'юїт",
+        "nycdoitt:bin": "1046980",
+        "old_name": "Andrew Carnegie Mansion",
+        "opening_hours": "Sep 05-Nov 01 off; Mo-Su 10:00-18:00; Nov Th[4] off; Dec 25 off",
+        "operator": "Smithsonian",
+        "phone": "+1 212-849-8400",
+        "tourism": "museum",
+        "website": "https://www.cooperhewitt.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q4756547",
+        "wikipedia": "en:Andrew Carnegie Mansion"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271205008,
+      "center": {
+        "lat": 40.802929,
+        "lon": -73.9690037
+      },
+      "tags": {
+        "addr:housenumber": "319",
+        "addr:postcode": "10025",
+        "addr:street": "West 107th Street",
+        "building": "yes",
+        "fee": "donation",
+        "height": "21.1",
+        "name": "Nicholas Roerich Museum",
+        "nycdoitt:bin": "1057276",
+        "opening_hours": "Tu-Fr 12:00-16:00, Sa, Su 12:00-17:00, Dec 25 off, Nov Th[4] off, Jan 01 off, Jul 04 off",
+        "tourism": "museum",
+        "website": "https://www.roerich.org/",
+        "wheelchair": "limited",
+        "wikidata": "Q7026138"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271220752,
+      "center": {
+        "lat": 40.792506,
+        "lon": -73.9519079
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "1220",
+        "addr:postcode": "10029",
+        "addr:state": "NY",
+        "addr:street": "5th Avenue",
+        "building": "yes",
+        "check_date:opening_hours": "2024-09-04",
+        "ele": "10",
+        "fee": "yes",
+        "fee:conditional": "no @ age < 19; no @ We; donation @ (local residents)",
+        "gnis:feature_id": "2083575",
+        "height": "29.1",
+        "name": "Museum of the City of New York",
+        "nycdoitt:bin": "1074157",
+        "opening_hours": "Mo-Fr 10:00-17:00; Sa-Su 10:00-18:00; Jan 01 off; Nov Th[4] off; Dec 25 off",
+        "tourism": "museum",
+        "website": "https://www.mcny.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q1321141",
+        "wikipedia": "en:Museum of the City of New York"
+      }
+    },
+    {
+      "type": "way",
+      "id": 278346578,
+      "center": {
+        "lat": 40.761612,
+        "lon": -73.9775451
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "11",
+        "addr:postcode": "10019",
+        "addr:state": "NY",
+        "addr:street": "West 53rd Street",
+        "alt_name": "Museum of Modern Art",
+        "building": "museum",
+        "building:part": "yes",
+        "check_date:opening_hours": "2024-09-05",
+        "ele": "19",
+        "fee": "yes",
+        "fee:conditional": "no @ age < 17",
+        "gnis:feature_id": "958207",
+        "museum": "art",
+        "name": "MoMA",
+        "name:es": "MoMA",
+        "name:et": "New Yorgi moodsa kunsti muuseum",
+        "name:fr": "MoMA",
+        "name:ko": "근대 미술관",
+        "name:ru": "Нью-Йоркский музей современного искусства",
+        "name:uk": "Музей сучасного мистецтва",
+        "name:zh": "现代艺术博物馆",
+        "nycdoitt:bin": "1087646",
+        "official_name": "The Museum of Modern Art",
+        "opening_hours": "Mo-Su 10:30-17:30; Sa 10:30-19:00; Dec 25 off; Nov Th[4] off",
+        "short_name": "MoMA",
+        "start_date": "1929",
+        "tourism": "museum",
+        "website": "https://www.moma.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q188740",
+        "wikipedia": "en:Museum of Modern Art"
+      }
+    },
+    {
+      "type": "way",
+      "id": 287462475,
+      "center": {
+        "lat": 40.7400387,
+        "lon": -73.9780496
+      },
+      "tags": {
+        "access": "yes",
+        "dog": "leashed",
+        "ele": "9",
+        "gnis:feature_id": "2500679",
+        "leisure": "park",
+        "name": "Bellevue South Park",
+        "smoking": "no",
+        "website": "https://www.nycgovparks.org/parks/bellevue-south-park",
+        "wikidata": "Q34806742",
+        "wikipedia": "en:Bellevue South Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 288749896,
+      "center": {
+        "lat": 40.739633,
+        "lon": -74.0089385
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "99",
+        "addr:postcode": "10014",
+        "addr:state": "NY",
+        "addr:street": "Gansevoort Street",
+        "building": "yes",
+        "building:levels": "8",
+        "check_date:opening_hours": "2024-09-08",
+        "fee": "yes",
+        "fee:conditional": "no @ Fr 17:00-22:00; no @ Su[2]; no @ age < 19",
+        "museum": "art",
+        "name": "Whitney Museum of American Art",
+        "name:es": "Museo de Arte America Whitney",
+        "name:ja": "ホイットニー美術館",
+        "name:ru": "Музей американского искусства Уитни",
+        "opening_hours": "Mo-Su 10:30-18:00; Tu off; Fr 10:30-22:00",
+        "phone": "+1-212-570-3600",
+        "short_name": "The Whitney",
+        "tourism": "museum",
+        "website": "https://www.whitney.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q639791",
+        "wikipedia": "en:Whitney Museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 295969929,
+      "center": {
+        "lat": 40.7652136,
+        "lon": -73.9587494
+      },
+      "tags": {
+        "ele": "15",
+        "gnis:feature_id": "2500966",
+        "leisure": "park",
+        "name": "St. Catherine's Park",
+        "website": "https://www.nycgovparks.org/parks/st-catherines-park",
+        "wikidata": "Q34859757"
+      }
+    },
+    {
+      "type": "way",
+      "id": 343765233,
+      "center": {
+        "lat": 40.7536627,
+        "lon": -73.9635157
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:state": "NY",
+        "ele": "5",
+        "gnis:feature_id": "2500972",
+        "leisure": "park",
+        "name": "Peter Detmold Park",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/peter-detmold-park",
+        "wikidata": "Q49541678"
+      }
+    },
+    {
+      "type": "way",
+      "id": 351201923,
+      "center": {
+        "lat": 40.7610387,
+        "lon": -73.9643728
+      },
+      "tags": {
+        "access": "yes",
+        "addr:city": "New York",
+        "addr:housenumber": "254",
+        "addr:postcode": "10022",
+        "addr:state": "NY",
+        "addr:street": "East 60th Street",
+        "check_date": "2025-06-09",
+        "dog": "leashed",
+        "ele": "19",
+        "gnis:feature_id": "2500967",
+        "leisure": "park",
+        "name": "Tramway Plaza",
+        "opening_hours": "sunrise-sunset",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/tramway-plaza",
+        "wikidata": "Q49571718"
+      }
+    },
+    {
+      "type": "way",
+      "id": 371120098,
+      "center": {
+        "lat": 40.7415933,
+        "lon": -73.9960607
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "Chelsea Green",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/chelsea-green-park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 378359193,
+      "center": {
+        "lat": 40.7419438,
+        "lon": -73.9783848
+      },
+      "tags": {
+        "access": "yes",
+        "ele": "9",
+        "gnis:feature_id": "2500680",
+        "leisure": "park",
+        "name": "Vincent F. Albano Jr. Playground",
+        "opening_hours": "Mar 02-Oct 31: Mo-Su 06:00-21:00; Nov 01-Mar 01: Mo-Su 06:00-18:00",
+        "website": "https://www.nycgovparks.org/parks/vincent-f-albano-jr-playground",
+        "wikidata": "Q119985098",
+        "wikipedia": "en:Vincent F. Albano Jr. Playground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 378364365,
+      "center": {
+        "lat": 40.7361158,
+        "lon": -73.9815688
+      },
+      "tags": {
+        "ele": "6",
+        "gnis:feature_id": "2500678",
+        "leisure": "park",
+        "name": "Peter's Field",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "surface": "asphalt",
+        "website": "https://www.nycgovparks.org/parks/peters-field/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 383689939,
+      "center": {
+        "lat": 40.7668672,
+        "lon": -73.9377901
+      },
+      "tags": {
+        "addr:city": "Long Island City",
+        "addr:housenumber": "9-01",
+        "addr:postcode": "11106",
+        "addr:street": "33rd Road",
+        "contact:email": "info@noguchi.org",
+        "contact:facebook": "NoguchiMuseum",
+        "contact:instagram": "noguchimuseum",
+        "fee": "yes",
+        "name": "The Noguchi Museum",
+        "official_name": "The Isamu Noguchi Foundation and Garden Museum",
+        "opening_hours": "Mo,Tu off; We-Su 11:00-18:00; Dec 25 off",
+        "phone": "+1 718-204-7088",
+        "reservation": "recommended",
+        "tourism": "museum",
+        "website": "https://www.noguchi.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q836080",
+        "wikipedia": "en:Noguchi Museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 385106972,
+      "center": {
+        "lat": 40.7493256,
+        "lon": -73.969745
+      },
+      "tags": {
+        "ele": "15",
+        "gnis:feature_id": "2500682",
+        "leisure": "park",
+        "name": "Ralph Bunche Park",
+        "name:etymology:wikidata": "Q213500",
+        "official_name": "Ralph J. Bunche Park",
+        "start_date": "1979",
+        "website": "https://www.nycgovparks.org/parks/ralph-bunche-park/",
+        "wikidata": "Q865971",
+        "wikipedia": "en:Ralph Bunche Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 455314804,
+      "center": {
+        "lat": 40.7484918,
+        "lon": -73.9704129
+      },
+      "tags": {
+        "ele": "23",
+        "gnis:feature_id": "2500683",
+        "leisure": "park",
+        "name": "Trygve Lie Plaza",
+        "name:etymology:wikidata": "Q1271",
+        "website": "https://www.nycgovparks.org/parks/trygve-lie-plaza/",
+        "wikidata": "Q49572270"
+      }
+    },
+    {
+      "type": "way",
+      "id": 483702983,
+      "center": {
+        "lat": 40.7355499,
+        "lon": -73.9821423
+      },
+      "tags": {
+        "ele": "7",
+        "gnis:feature_id": "2500677",
+        "leisure": "park",
+        "name": "Augustus Saint-Gaudens Playground",
+        "name:etymology:wikidata": "Q770625",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/augustus-st-gaudens-playground/",
+        "wikidata": "Q34803557"
+      }
+    },
+    {
+      "type": "way",
+      "id": 837696042,
+      "center": {
+        "lat": 40.772165,
+        "lon": -73.9956854
+      },
+      "tags": {
+        "fixme": "survey needed to verify individual features within park and add new buildings",
+        "leisure": "park",
+        "name": "Pier 97",
+        "operator": "Hudson River Park",
+        "website": "https://hudsonriverpark.org/the-park/whats-happening/design-process-pier-97/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023817153,
+      "center": {
+        "lat": 40.7591506,
+        "lon": -74.005364
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "408",
+        "addr:postcode": "10018",
+        "addr:state": "NY",
+        "addr:street": "12th Avenue",
+        "leisure": "park",
+        "name": "Pier 76",
+        "operator": "Hudson River Park Trust",
+        "operator:type": "public",
+        "website": "https://hudsonriverpark.org/pier-76/",
+        "wikidata": "Q1359049",
+        "wikipedia": "en:Hudson River Park"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1121582607,
+      "center": {
+        "lat": 40.750256,
+        "lon": -73.987625
+      },
+      "tags": {
+        "access": "yes",
+        "addr:city": "New York",
+        "addr:postcode": "10001",
+        "addr:state": "NY",
+        "addr:street": "6th Avenue",
+        "leisure": "park",
+        "name": "Herald Square",
+        "name:etymology:wikidata": "Q126871596",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "website": "https://www.nycgovparks.org/parks/herald-square/",
+        "wikidata": "Q109982",
+        "wikipedia": "en:Herald Square"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 3698894,
+      "center": {
+        "lat": 40.7793968,
+        "lon": -73.9634178
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "1000",
+        "addr:state": "NY",
+        "addr:street": "5th Avenue",
+        "building": "museum",
+        "building:colour": "beige",
+        "check_date": "2025-12-20",
+        "ele": "28",
+        "fee": "yes",
+        "fee:conditional": "no @( age < 12)",
+        "gnis:feature_id": "957042",
+        "height": "26.8",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "MetMuseumFreeWiFi",
+        "museum": "art",
+        "name": "The Metropolitan Museum of Art",
+        "name:en": "The Metropolitan Museum of Art",
+        "name:he": "מוזיאון המטרופוליטן לאמנות",
+        "name:hi": "कला का महानगरीय संग्रहालय",
+        "name:ru": "Метрополитан Музей Искусства",
+        "nycdoitt:bin": "1083810",
+        "opening_hours": "10:00-17:00; Fr-Sa 10:00-21:00; We off; May Mo[1] off; Nov Th[4] off; Dec 25 off; Jan 01 off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 212-535-7710",
+        "ref:nrhp": "86003556",
+        "short_name": "The Met",
+        "source": "bing",
+        "tourism": "museum",
+        "type": "multipolygon",
+        "website": "https://www.metmuseum.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q160236",
+        "wikipedia": "en:Metropolitan Museum of Art"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7095444,
+      "center": {
+        "lat": 40.7358088,
+        "lon": -73.9904565
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "201",
+        "addr:postcode": "10003",
+        "addr:state": "NY",
+        "addr:street": "Park Avenue South",
+        "leisure": "park",
+        "name": "Union Square Park",
+        "name:ja": "ユニオンスクエア公園",
+        "name:ko": "유니온 스퀘어 공원",
+        "name:ru": "Юнион-сквер",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "type": "multipolygon",
+        "website": "https://www.nycgovparks.org/parks/union-square-park",
+        "wikidata": "Q110007",
+        "wikimedia_commons": "File:1 new york city union square 2010.JPG",
+        "wikipedia": "en:Union Square, Manhattan"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7095669,
+      "center": {
+        "lat": 40.7336501,
+        "lon": -73.9839997
+      },
+      "tags": {
+        "ele": "8",
+        "gnis:feature_id": "966670",
+        "leisure": "park",
+        "name": "Stuyvesant Square",
+        "name:etymology:wikidata": "Q54954772",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "type": "multipolygon",
+        "website": "https://www.nycgovparks.org/parks/stuyvesant-square",
+        "wikidata": "Q1478163",
+        "wikipedia": "en:Stuyvesant Square"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 7141751,
+      "center": {
+        "lat": 40.7479527,
+        "lon": -74.0039539
+      },
+      "tags": {
+        "access": "yes",
+        "addr:city": "New York",
+        "addr:state": "NY",
+        "bicycle": "no",
+        "bridge": "viaduct",
+        "building:colour": "#3D4647",
+        "building:material": "metal",
+        "building:part": "yes",
+        "description": "The High Line is a 1.45-mile-long elevated linear park, greenway, and rail trail created on a former New York Central Railroad spur on the west side of Manhattan in New York City.",
+        "dog": "no",
+        "email": "info@thehighline.org",
+        "height": "7.5",
+        "layer": "2",
+        "leisure": "park",
+        "linear": "yes",
+        "man_made": "bridge",
+        "min_height": "5.5",
+        "name": "The High Line",
+        "old_railway_operator": "NYC",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "operator": "Friends of the High Line",
+        "operator:type": "public",
+        "phone": "+1 212-500-6035",
+        "roof:material": "grass",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "website": "https://www.thehighline.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q843869",
+        "wikimedia_commons": "Category:High Line (New York City)",
+        "wikipedia": "en:High Line"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11225305,
+      "center": {
+        "lat": 40.7601461,
+        "lon": -73.9628632
+      },
+      "tags": {
+        "ele": "18",
+        "gnis:feature_id": "2500968",
+        "leisure": "park",
+        "name": "Honey Locust Park",
+        "operator": "NYC",
+        "type": "multipolygon",
+        "website": "https://www.nycgovparks.org/parks/honey-locust-park",
+        "wikidata": "Q34831233"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 14425097,
+      "center": {
+        "lat": 40.7452795,
+        "lon": -73.9740145
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "1 Ave.,2 Ave.",
+        "addr:state": "NY",
+        "addr:street": "bet. E. 35 St. and E. 36 St.",
+        "barrier": "fence",
+        "bicycle": "no",
+        "dog": "no",
+        "ele": "5",
+        "gnis:feature_id": "963513",
+        "leisure": "park",
+        "name": "Saint Vartan Park",
+        "name:etymology:wikidata": "Q3249861",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "government",
+        "operator:wikidata": "Q1894232",
+        "type": "multipolygon",
+        "website": "https://www.nycgovparks.org/parks/st-vartan-park",
+        "wikidata": "Q49556302"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 16000824,
+      "center": {
+        "lat": 40.7565069,
+        "lon": -73.9605051
+      },
+      "tags": {
+        "addr:city": "New York",
+        "addr:state": "NY",
+        "gnis:feature_id": "2500971",
+        "leisure": "park",
+        "name": "Sutton Parks",
+        "operator": "New York City Department of Parks and Recreation",
+        "operator:short": "NYC Parks",
+        "operator:type": "public",
+        "operator:wikidata": "Q1894232",
+        "type": "multipolygon",
+        "website": "https://www.nycgovparks.org/parks/sutton-parks"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20812866,
+      "center": {
+        "lat": 40.7462165,
+        "lon": -74.0051836
+      },
+      "tags": {
+        "access": "yes",
+        "addr:city": "New York",
+        "addr:state": "NY",
+        "dog": "leashed",
+        "leisure": "park",
+        "linear": "yes",
+        "name": "Hudson River Park",
+        "note": "Legal bounds of the park are the pierhead line to west, NY 9A to east, Battery Park City to south, and 59th Street to north, with specific exclusions.",
+        "operator": "Hudson River Park Trust",
+        "operator:type": "public",
+        "source": "https://hudsonriverpark.org/app/uploads/2020/03/HRP-Act.pdf",
+        "type": "multipolygon",
+        "website": "https://hudsonriverpark.org/",
+        "wikidata": "Q1359049",
+        "wikipedia": "en:Hudson River Park"
+      }
+    }
+  ]
+}

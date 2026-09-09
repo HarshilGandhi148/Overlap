@@ -9,7 +9,7 @@ from core.contracts import Candidate, CategorySpec, Person, SearchResponse
 class CategoryState:
     filters: dict[str, Any] = field(default_factory=dict)
     query: str = ""
-    preferences: dict[str, dict[str, tuple[str, ...]]] = field(default_factory=dict)
+    preferences: dict[str, dict[str, Any]] = field(default_factory=dict)
     custom_text: str = ""
     results: list[Candidate] = field(default_factory=list)
     response: SearchResponse | None = None
@@ -18,6 +18,8 @@ class CategoryState:
     chosen_id: str | None = None
     searched: bool = False
     revision: int = 0
+    suggestions: list[dict[str, Any]] = field(default_factory=list)
+    needs_search: bool = False
 
     def invalidate(self) -> None:
         self.results.clear()
@@ -27,9 +29,14 @@ class CategoryState:
         self.chosen_id = None
         self.searched = False
         self.revision += 1
+        self.needs_search = False
 
-    def set_preferences(self, person_id: str, likes: list[str], avoids: list[str]) -> None:
+    def set_preferences(self, person_id: str, likes: list[str], avoids: list[str], requirements=None, access=None) -> None:
         value = {"likes": tuple(likes), "avoids": tuple(avoids)}
+        if requirements is not None:
+            value['requirements'] = requirements
+        if access is not None:
+            value['access'] = access
         if self.preferences.get(person_id, {"likes": (), "avoids": ()}) != value:
             self.preferences[person_id] = value
             self.invalidate()
@@ -37,6 +44,8 @@ class CategoryState:
             self.preferences[person_id] = value
 
     def toggle_shortlist(self, candidate: Candidate) -> None:
+        if candidate.eligibility != 'verified':
+            raise ValueError('Resolve missing requirements before adding this option to the vote.')
         if any(c.id == candidate.id for c in self.shortlist):
             self.shortlist = [c for c in self.shortlist if c.id != candidate.id]
             self.votes.pop(candidate.id, None)
@@ -62,7 +71,9 @@ class GroupState:
     def people(self, state: CategoryState) -> tuple[Person, ...]:
         return tuple(Person(m["id"], m["name"],
                            state.preferences.get(m["id"], {}).get("likes", ()),
-                           state.preferences.get(m["id"], {}).get("avoids", ())) for m in self.members)
+                           state.preferences.get(m["id"], {}).get("avoids", ()),
+                           state.preferences.get(m["id"], {}).get("requirements", {}),
+                           state.preferences.get(m["id"], {}).get("access", {})) for m in self.members)
 
     def invalidate_all(self) -> None:
         for state in self.categories.values():

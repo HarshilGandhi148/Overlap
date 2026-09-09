@@ -2,6 +2,10 @@
 
 Person 1 owns the app, group state, forms, ranking, cards, shortlist, and voting. Your category owns data, filters, and retrieval. Keep your work inside your assigned `categories/<name>.py` and `data/<name>.json` until a shared change is agreed.
 
+Person 3 integration: Do now owns `nearby/`, `data/nyc_places.json`, and `data/nyc_enrichment.json` in addition to `categories/do.py`. Its `nearby/integration_ui.py` adds written preferences/location controls inside Person 1's existing shell. Do still exposes the same `get_spec`, `search`, and `seed` contract and returns standard Candidates to shared voting. It does not replace `main.py` with the standalone submission. Keep later Do changes within these files; other category owners need no interface changes.
+
+Person 4 integration: Watch/Play now own `core/media_catalog.py`, `core/media_matching.py`, `core/media_apis.py`, `core/storage.py`, `ui/media.py`, and their catalog/import files. The shared dataclasses have backward-compatible optional `requirements`, `access`, `suggestions`, `unresolved`, `conflicts`, and eligibility fields. Existing category callers do not need to pass them. Unknown required facts go in `SearchResponse.unresolved`; only verified Candidates go in `candidates`. The shared three-choice vote remains unchanged. Anything is identical to the original implementation.
+
 ## Your three functions
 
 ```python
@@ -85,3 +89,5 @@ Run `python -m scripts.seed <category>` after catalog changes. Keep the real ser
 - Open a small PR. Person 1 merges, seeds, and verifies the shared screen immediately.
 
 Person 4 should integrate Watch first, then the small Anything workflow, then Play. Stubs keep those tabs available in the meantime.
+
+Eat integration: `categories/eat.py` and `scripts/import_eat.py` use the shared contract and voting flow. Real provider records live in ignored `data/eat_real.json`, indexed as `<prefix>_eat_restaurants`; `eat.json` remains a fictional offline fixture. Do not restore the submission's custom-choice bypass or replace shared files. See `docs/eat-integration.md`.

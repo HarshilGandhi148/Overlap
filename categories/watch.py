@@ -1,13 +1,13 @@
-"""PERSON 4: replace this starter and data/watch.json with your movie work."""
-from core.catalog import CatalogProvider
+"""Watch integration; preserves the shared category entrypoints."""
+from core.media_catalog import MediaCatalog
 from core.contracts import CategorySpec, FilterField
 
 SPEC = CategorySpec(
     "watch", "Watch", "What should we watch?", "Spend movie night watching something.",
-    filter_fields=(FilterField("max_duration", "Maximum runtime (minutes)", "number", 150, maximum=300, step=5),),
-    like_options=("Comedy", "Adventure", "Mystery", "Drama", "Animation", "Sci-fi", "Horror"),
+    filter_fields=(FilterField("max_duration", "Maximum runtime (minutes; 0 = no limit)", "number", 150, maximum=300, step=5),),
+    like_options=("Comedy", "Adventure", "Mystery", "Drama", "Animation", "Sci-fi", "Horror", "Lighthearted", "Tense", "Thoughtful"),
     avoid_options=("Comedy", "Adventure", "Mystery", "Drama", "Animation", "Sci-fi", "Horror"))
-_provider = CatalogProvider(SPEC)
+_provider = MediaCatalog(SPEC)
 
 
 def get_spec():

@@ -1,5 +1,42 @@
 <style>
-/* Only our own markup is styled; native Streamlit controls use config.toml. */
-.overlap-tag { color:#6740cc; font-size:0.75rem; letter-spacing:0.06em; text-transform:uppercase; margin-bottom:0.4rem; }
-.overlap-card-title { font-size:1.3rem; font-weight:600; margin:0 0 0.5rem; letter-spacing:-0.03em; }
+:root { --overlap-ink:#28213b; --overlap-purple:#6740cc; --overlap-muted:#797184; }
+[data-testid="stMainBlockContainer"] { max-width:1120px; padding:2.3rem 2rem 4rem; }
+[data-testid="stHeader"] { background:transparent; }
+.stApp { background:radial-gradient(ellipse at 50% 0%, #ede5ff 0%, #f8f7fb 58%); }
+h1, h2, h3 { letter-spacing:-0.045em; }
+[data-testid="stButton"] button, [data-testid="stFormSubmitButton"] button { border-radius:12px; min-height:44px; }
+[data-testid="stButton"] button[kind="primary"], [data-testid="stFormSubmitButton"] button[kind="primary"] { box-shadow:0 5px 16px #6740cc18; }
+[data-testid="stVerticalBlockBorderWrapper"] > div { border-radius:18px; }
+.hero { text-align:center; padding:3.5rem 0 1.5rem; }
+.overlap-mark { position:relative; width:112px; height:65px; margin:0 auto 1.1rem; }
+.overlap-mark span { display:block; position:absolute; width:64px; height:64px; border-radius:50%; border:2px solid var(--overlap-purple); background:#9670e52b; }
+.overlap-mark span:first-child { left:4px; }
+.overlap-mark span:last-child { right:4px; background:#6740cc3d; }
+.wordmark { font-size:1.4rem; font-weight:750; letter-spacing:-0.04em; margin:0 0 1.6rem; }
+.hero h1 { font-size:clamp(3.4rem, 7vw, 5.5rem); line-height:1.05; font-weight:750; color:var(--overlap-ink); padding:0; }
+.hero h1 span { color:var(--overlap-purple); }
+.hero-description { font-size:1.1rem; color:var(--overlap-muted); line-height:1.7; margin:1.5rem 0 0; }
+.hero-footer { text-align:center; padding:2.5rem 0 1rem; }
+.hero-footer p, .eyebrow { font-size:0.72rem; font-weight:650; letter-spacing:0.13em; color:var(--overlap-muted); }
+.category-pills { display:flex; justify-content:center; flex-wrap:wrap; gap:0.6rem; margin-top:1.25rem; }
+.category-pills span { background:#ffffff9c; border:1px solid #e5dfee; padding:0.4rem 1.1rem; border-radius:50px; font-size:0.85rem; color:#5e526f; }
+.st-key-landing [data-testid="stButton"] button { min-height:54px; font-size:1rem; }
+.st-key-names_page { max-width:680px; margin:0 auto; }
+.st-key-names_page .eyebrow { margin-top:2rem; }
+.page-title { font-size:clamp(2.3rem, 5vw, 3.3rem); line-height:1.15; padding:0 0 0.5rem; }
+.app-brand { font-size:1.5rem; font-weight:750; letter-spacing:-0.05em; }
+.app-brand span { display:block; font-size:0.78rem; font-weight:400; letter-spacing:0; color:var(--overlap-muted); margin-top:0.2rem; }
+.st-key-decision_steps { margin:0.75rem 0 0.5rem; }
+.st-key-decision_steps button { min-height:48px; }
+.overlap-tag { color:var(--overlap-purple); font-size:0.72rem; letter-spacing:0.075em; text-transform:uppercase; margin-bottom:0.65rem; font-weight:600; }
+.overlap-card-title { font-size:1.35rem; font-weight:650; margin:0 0 0.5rem; letter-spacing:-0.035em; }
+.sample-note { font-size:0.78rem; color:var(--overlap-muted); margin:0.25rem 0 0.6rem; }
+@media (max-width:640px) {
+  [data-testid="stMainBlockContainer"] { padding:1.5rem 1rem 3rem; }
+  .hero { padding-top:2rem; }
+  .hero h1 { font-size:3.2rem; }
+  .hero-description { font-size:0.95rem; }
+  .hero-footer { padding-top:1.8rem; }
+  .app-brand span { display:none; }
+}
 </style>

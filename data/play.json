@@ -1,8 +1,224 @@
 [
-  {"id":"rescue","title":"Island Rescue","description":"Work together to bring everyone home before the storm.","tags":["Cooperative","Strategy"],"duration":35,"players_min":2,"players_max":4},
-  {"id":"draw","title":"Draw It Back","description":"Sketch, guess, and see where the story goes.","tags":["Party","Quick","Creative"],"duration":20,"players_min":3,"players_max":8},
-  {"id":"orchard","title":"The Orchard","description":"Build a small garden one choice at a time.","tags":["Strategy"],"duration":65,"players_min":2,"players_max":4},
-  {"id":"word","title":"Word Relay","description":"A quick word association challenge for the whole group.","tags":["Party","Quick","Cooperative"],"duration":15,"players_min":2,"players_max":10},
-  {"id":"tower","title":"Paper Tower","description":"Cooperate to build the tallest tower with limited supplies.","tags":["Creative","Cooperative","Quick"],"duration":25,"players_min":2,"players_max":8},
-  {"id":"kingdom","title":"Little Kingdoms","description":"A longer strategy game of trading and building.","tags":["Strategy"],"duration":110,"players_min":3,"players_max":6}
+  {
+    "id": "rescue",
+    "title": "Island Rescue",
+    "description": "Work together to bring everyone home before the storm.",
+    "tags": [
+      "Cooperative",
+      "Strategy"
+    ],
+    "duration": 35,
+    "players_min": 2,
+    "players_max": 4,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "format": "Video",
+    "multiplayer": [
+      {
+        "platform": "PC (Microsoft Windows)",
+        "mode": "Local",
+        "min_players": 2,
+        "max_players": 4
+      }
+    ],
+    "curated": {
+      "session_max": 35,
+      "setup_minutes": 5,
+      "teaching_minutes": 10,
+      "source": "Fictional demo estimate",
+      "mixed_experience": true,
+      "replayable": true,
+      "equipment": [],
+      "controllers_per_player": 1,
+      "tags": [
+        "Relaxed",
+        "Easy to learn"
+      ]
+    }
+  },
+  {
+    "id": "draw",
+    "title": "Draw It Back",
+    "description": "Sketch, guess, and see where the story goes.",
+    "tags": [
+      "Party",
+      "Quick",
+      "Creative"
+    ],
+    "duration": 20,
+    "players_min": 3,
+    "players_max": 8,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "format": "Video",
+    "multiplayer": [
+      {
+        "platform": "PC (Microsoft Windows)",
+        "mode": "Local",
+        "min_players": 3,
+        "max_players": 8
+      }
+    ],
+    "curated": {
+      "session_max": 20,
+      "setup_minutes": 2,
+      "teaching_minutes": 3,
+      "source": "Fictional demo estimate",
+      "mixed_experience": true,
+      "replayable": true,
+      "equipment": [],
+      "controllers_per_player": 1,
+      "tags": [
+        "Relaxed",
+        "Easy to learn"
+      ]
+    }
+  },
+  {
+    "id": "orchard",
+    "title": "The Orchard",
+    "description": "Build a small garden one choice at a time.",
+    "tags": [
+      "Strategy"
+    ],
+    "duration": 65,
+    "players_min": 2,
+    "players_max": 4,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "format": "Video",
+    "multiplayer": [
+      {
+        "platform": "PC (Microsoft Windows)",
+        "mode": "Local",
+        "min_players": 2,
+        "max_players": 4
+      }
+    ],
+    "curated": {
+      "session_max": 65,
+      "setup_minutes": 5,
+      "teaching_minutes": 10,
+      "source": "Fictional demo estimate",
+      "mixed_experience": true,
+      "replayable": true,
+      "equipment": [],
+      "controllers_per_player": 1,
+      "tags": [
+        "Relaxed",
+        "Easy to learn"
+      ]
+    }
+  },
+  {
+    "id": "word",
+    "title": "Word Relay",
+    "description": "A quick word association challenge for the whole group.",
+    "tags": [
+      "Party",
+      "Quick",
+      "Cooperative"
+    ],
+    "duration": 15,
+    "players_min": 2,
+    "players_max": 10,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "format": "Video",
+    "multiplayer": [
+      {
+        "platform": "PC (Microsoft Windows)",
+        "mode": "Local",
+        "min_players": 2,
+        "max_players": 10
+      }
+    ],
+    "curated": {
+      "session_max": 15,
+      "setup_minutes": 0,
+      "teaching_minutes": 2,
+      "source": "Fictional demo estimate",
+      "mixed_experience": true,
+      "replayable": true,
+      "equipment": [],
+      "controllers_per_player": 1,
+      "tags": [
+        "Relaxed",
+        "Easy to learn"
+      ]
+    }
+  },
+  {
+    "id": "tower",
+    "title": "Paper Tower",
+    "description": "Cooperate to build the tallest tower with limited supplies.",
+    "tags": [
+      "Creative",
+      "Cooperative",
+      "Quick"
+    ],
+    "duration": 25,
+    "players_min": 2,
+    "players_max": 8,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "format": "Video",
+    "multiplayer": [
+      {
+        "platform": "PC (Microsoft Windows)",
+        "mode": "Local",
+        "min_players": 2,
+        "max_players": 8
+      }
+    ],
+    "curated": {
+      "session_max": 25,
+      "setup_minutes": 2,
+      "teaching_minutes": 3,
+      "source": "Fictional demo estimate",
+      "mixed_experience": true,
+      "replayable": true,
+      "equipment": [],
+      "controllers_per_player": 1,
+      "tags": [
+        "Relaxed",
+        "Easy to learn"
+      ]
+    }
+  },
+  {
+    "id": "kingdom",
+    "title": "Little Kingdoms",
+    "description": "A longer strategy game of trading and building.",
+    "tags": [
+      "Strategy"
+    ],
+    "duration": 110,
+    "players_min": 3,
+    "players_max": 6,
+    "source": "Fictional demo",
+    "genres_known": true,
+    "format": "Video",
+    "multiplayer": [
+      {
+        "platform": "PC (Microsoft Windows)",
+        "mode": "Local",
+        "min_players": 3,
+        "max_players": 6
+      }
+    ],
+    "curated": {
+      "session_max": 110,
+      "setup_minutes": 10,
+      "teaching_minutes": 15,
+      "source": "Fictional demo estimate",
+      "mixed_experience": false,
+      "replayable": true,
+      "equipment": [],
+      "controllers_per_player": 1,
+      "tags": [
+        "Immersive"
+      ]
+    }
+  }
 ]
