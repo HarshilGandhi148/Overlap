@@ -154,3 +154,5 @@ Eat and Do read `GOOGLE_MAPS_API_KEY` from ignored `.env`. Eat uses Places API (
 After everyone has voted and the group confirms a consensus pick, a brief confetti animation plays once. Reduced-motion preferences suppress the animation.
 
 Voting uses Love = 2, Okay = 1, Pass = 0. A Pass lowers the score without vetoing a choice. Results are ordered by total points; ties preserve shortlist order. All members must vote on all options before any final confirmation.
+
+Project Members: Harshil Gandhi, Nathan Madzelan, Venkata Gummidi, Krish Pilaya
